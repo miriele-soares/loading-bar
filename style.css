@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #252b37;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 95%;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal-content {
+    display: flex;
+    margin: 5rem;
+    width: 30rem;
+    height: 12rem;
+    border-radius: 6px;
+    padding-left: 25px;
+    padding-right: 25px;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-evenly;
+}
+
+.modal-body {
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.modal-body .container {
+    height: 1rem;
+    padding-left: 0;
+    border-radius: 10px;
+    background-color: #87878729;
+    box-shadow: rgb(211 211 211) 1.2px 2px 8px 0px inset, rgb(255 255 255) -3.2px -3.2px 8px 0px inset;
+}
+
+.container .progress-bar {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    font-size: 10px;
+    text-align: end;
+    font-weight: 700;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: flex-end;
+    background: linear-gradient(90deg, #7e7dff 16.67%, #6772ff 78.12%);
+}
+
+.progress-bar label {
+    margin-right: 8px;
+    color: white;
+}
+
+.size-14 {
+    font-size: 14px;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-footer button {
+    width: 8rem;
+    height: 1.5rem;
+    background-color: #666ed9;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    font-weight: 400;
+}
