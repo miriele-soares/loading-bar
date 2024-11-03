@@ -71,7 +71,7 @@ body {
 
 .container .progress-bar {
     display: flex;
-    width: 50%;
+    width: 0;
     height: 100%;
     font-size: 10px;
     text-align: end;
@@ -79,15 +79,16 @@ body {
     border-radius: 10px;
     align-items: center;
     justify-content: flex-end;
-    background: linear-gradient(270deg, rgba(221, 221, 255, 1) 0%, rgba(153, 148, 255, 1) 15%, 15%, rgba(93, 93, 255, 1) 100%);
+    background-image: linear-gradient(to right, #8484ff, #b4b4ff, #84a5ff, #8497ff, #b4b4ff, #8484ff, #8484ff, #b4b4ff, #84a5ff, #8484ff);
     animation: loading 30s linear infinite;
-    transition: opacity .4s ease-in-out;
+    transition: opacity .3s ease-in-out;
     background-size: 600%;
 }
 
 .progress-bar label {
     margin-right: 8px;
     color: white;
+    font-size: 11px;
 }
 
 .modal-footer {
